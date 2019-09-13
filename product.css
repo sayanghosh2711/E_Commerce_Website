@@ -169,7 +169,7 @@ body {
         display: none;
     }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 380px){
     #header-wrap h2 {
         font-size: 30px;
         margin-left: 10px;

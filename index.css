@@ -227,7 +227,14 @@ body {
     left: 80vw;
     bottom: 100px;
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 500px){
+    #access {
+        width: 90vw;
+    }
+    #edyoda-img {
+        height: 30px;
+        width: 60px;
+    }
     #header-wrap h2 {
         font-size: 30px;
         margin-left: 10px;
@@ -253,15 +260,6 @@ body {
     }
     #edyoda-img {
         bottom: 30px;
-    }
-}
-@media screen and (max-width: 500px){
-    #access {
-        width: 90vw;
-    }
-    #edyoda-img {
-        height: 30px;
-        width: 60px;
     }
 }
 @media screen and (max-width: 600px){

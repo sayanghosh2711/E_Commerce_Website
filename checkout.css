@@ -161,8 +161,6 @@ body {
     padding: 40px 0px 30px 0px; 
 }
 
-
-
 @media screen and (max-width: 320px){
     #header-wrap h2 {
         font-size: 30px;
@@ -171,9 +169,26 @@ body {
     #products {
         padding-left: 0px;
     }
+    #subtotal {
+        width: 90vw;
+    }
+    .prod {
+        width: 100vw;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    #header-wrap h2 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
     .prod {
         width: 90vw;
         margin: 0px;
+    }
+    #products {
+        padding-left: 0px;
     }
     #subtotal {
         width: 90vw;
