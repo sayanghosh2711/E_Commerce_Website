@@ -28,7 +28,7 @@ function showSlides(n) {
 //RENDERING TEXT AND IMAGES FROM API
 var totaly = JSON.parse(localStorage.getItem('total'));
 var cartCount = document.getElementById('cart-count');
-if(totaly == 0){
+if(parseInt(totaly) == "NaN"){
     cartCount.innerHTML = 0;
 }else{
     cartCount.innerHTML = parseInt(totaly);
