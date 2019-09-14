@@ -9,7 +9,11 @@ var totaly = JSON.parse(localStorage.getItem('total'));
 var sum = JSON.parse(localStorage.getItem('sumo'));
 
 var cartCount = document.getElementById('cart-count');
-cartCount.innerHTML = parseInt(totaly);
+if(totaly == null){
+    cartCount.innerHTML = 0;
+}else{
+    cartCount.innerHTML = parseInt(totaly);
+}
 
 var http = new XMLHttpRequest();
 http.open('GET', 'https://5d76bf96515d1a0014085cf9.mockapi.io/product/' + id, true);
