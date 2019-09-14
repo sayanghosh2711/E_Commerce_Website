@@ -2,6 +2,9 @@ var id1 = JSON.parse(localStorage.getItem('idass'));
 var id = parseInt(id1);
 
 var list1 = JSON.parse(localStorage.getItem('listy'));
+if(list1 == null){
+    list1 = [];
+}
 var totaly = JSON.parse(localStorage.getItem('total'));
 var sum = JSON.parse(localStorage.getItem('sumo'));
 
